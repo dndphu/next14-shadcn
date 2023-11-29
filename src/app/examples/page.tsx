@@ -14,7 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-const DemoPage = () => {
+const ExamplesPage = () => {
   return (
     <div className="p-4">
       <Dialog>
@@ -57,4 +57,4 @@ const DemoPage = () => {
   );
 };
 <style></style>;
-export default DemoPage;
+export default ExamplesPage;

@@ -30,6 +30,12 @@ const appHeader = () => {
           >
             Examples
           </Link>
+          <Link
+            href="/demo"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white text-xl hover:text-red-100 mr-4"
+          >
+            Demo
+          </Link>
         </div>
         <div>
           <Avatar className="cursor-pointer">
