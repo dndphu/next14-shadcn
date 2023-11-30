@@ -4,10 +4,9 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <nav
-      className="sticky top-0 flex items-center justify-between flex-wrap bg-red-600 p-3 h-auto"
-      style={{ height: "72px" }}
+      className="sticky top-0 z-50 flex items-center justify-between flex-wrap bg-red-600 p-3 h-auto"
     >
-      <div className="container lg w-full block flex items-center">
+      <div className="container px-0 w-full block flex items-center">
         <div className="mr-4">
           <Link href="/">
             <Image

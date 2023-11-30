@@ -13,7 +13,6 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
-
 const DemoPage = () => {
   return (
     <div className="p-4">
@@ -64,6 +63,8 @@ const DemoPage = () => {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+
+
     </div>
   );
 };
