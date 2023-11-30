@@ -42,7 +42,7 @@ const Navbar = () => {
             className="w-full  rounded px-4 h-11 outline-none	"
           />
         </div>
-        <div className="flex ml-4 cursor-pointer">
+        <div className="hidden md:flex ml-4 cursor-pointer">
           <Image
             style={{
               filter:
@@ -58,7 +58,7 @@ const Navbar = () => {
             <span className="leading-4 text-xs">1900 xxx</span>
           </div>
         </div>
-        <div className="flex ml-4 cursor-pointer">
+        <div className="hidden md:flex ml-4 cursor-pointer">
           <Image
             style={{
               filter:
@@ -74,7 +74,7 @@ const Navbar = () => {
             <span className="leading-4 text-xs">Show room</span>
           </div>
         </div>
-        <div className="flex ml-4 cursor-pointer">
+        <div className="hidden md:flex ml-4 cursor-pointer">
           <Image
             style={{
               filter:
@@ -90,7 +90,7 @@ const Navbar = () => {
             <span className="leading-4 text-xs">đơn hàng</span>
           </div>
         </div>
-        <div className="flex ml-4 cursor-pointer">
+        <div className="hidden md:flex ml-4 cursor-pointer">
           <Image
             style={{
               filter:

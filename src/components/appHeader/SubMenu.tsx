@@ -2,7 +2,7 @@
 import { Like } from "@/components/svgs/index";
 const SubMenu = () => {
   return (
-    <div className=" h-10 bg-white lg:container px-0 flex flex-row justify-between items-center">
+    <div className="hidden lg:flex h-10 bg-white lg:container px-0  flex-row justify-between items-center">
       <div className="w-auto relative flex-auto border-r-2 mr-2">
         <div className="flex items-center justify-center py-2 cursor-pointer hover:text-red-600">
           <Like />
