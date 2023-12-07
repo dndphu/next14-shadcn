@@ -19,7 +19,6 @@ export default function Home() {
       </div>
       <div className="container">
         <h1 className="mt-4 file:text-2xl font-semibold	">Hi i am Phu</h1>
-        <div>Khi nao ranh doi icon sau :D</div>
         <div>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
           mollitia facere odio deserunt beatae optio soluta rerum repellat sequi
