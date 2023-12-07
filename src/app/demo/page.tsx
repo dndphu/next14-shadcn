@@ -86,7 +86,7 @@ const DemoPage = () => {
             </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>
-      {/* <NavigationMenuViewport className="absolute left-40 top-0 flex justify-center"></NavigationMenuViewport> */}
+
       </NavigationMenu>
 
     </div>

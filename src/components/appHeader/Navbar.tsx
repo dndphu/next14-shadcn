@@ -31,13 +31,13 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="mr-4">
+        <div className="mr-2">
           <button
             style={{ background: "#BE1529" }}
-            className="flex items-center px-3 py-3  rounded text-white text-lg"
+            className="flex items-center px-2 py-2  rounded text-white text-lg"
           >
             <Menu></Menu>
-            <span className="lg:block hidden px-1 leading-4 text-base">
+            <span className="lg:block hidden px-1 leading-4 text-sm">
               Danh mục
             </span>
           </button>
