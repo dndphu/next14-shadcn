@@ -23,6 +23,8 @@ import Banner from "@/components/appHeader/Banner";
 
 import MenuHome from "@/components/appBody/Menu";
 const Navbar = (props: any) => {
+  const [isVisible, setIsVisible] = useState(false);
+
   const handleClick = () => {
     // Gọi hàm callback từ props khi sự kiện click xảy ra
     if (props.onClick) {
@@ -30,7 +32,6 @@ const Navbar = (props: any) => {
     }
     setIsVisible(true);
   };
-  const [isVisible, setIsVisible] = useState(true);
   return (
     <>
       <nav className="sticky top-0 z-20 flex items-center justify-between flex-wrap bg-red-600 p-3 h-auto">
