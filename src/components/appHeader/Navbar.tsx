@@ -21,7 +21,7 @@ import {
 import React, { useState } from "react";
 import Banner from "@/components/appHeader/banner";
 
-import MenuHome from "@/components/appBody/Menu";
+import MenuHome from "@/components/appBody/menu";
 const Navbar = (props: any) => {
   const [isVisible, setIsVisible] = useState(false);
 

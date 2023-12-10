@@ -5,7 +5,6 @@ import SubMenu from "@/components/appHeader/sub-menu";
 const mainLayout = () => {
   const handleChildClick = (info: string) => {
     console.log("From child: ", info);
-    // Xử lý thông tin từ child tại đây
   };
   return (
     <>

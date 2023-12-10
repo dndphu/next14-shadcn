@@ -1,4 +1,4 @@
-import MenuHome from "@/components/appBody/Menu";
+import MenuHome from "@/components/appBody/menu";
 export default function Home() {
   return (
     <main className=" min-h-screen p-4 bg-slate-100	">
