@@ -19,7 +19,7 @@ import {
   ShieldQuestion,
 } from "lucide-react";
 import React, { useState } from "react";
-import Banner from "@/components/appHeader/Banner";
+import Banner from "@/components/appHeader/banner";
 
 import MenuHome from "@/components/appBody/Menu";
 const Navbar = (props: any) => {
@@ -35,20 +35,15 @@ const Navbar = (props: any) => {
   return (
     <>
       <nav className="sticky top-0 z-20 flex items-center justify-between flex-wrap bg-red-600 p-3 h-auto">
-        {isVisible && (
-          <>
-            {" "}
-            <div className="z-20 absolute min-h-screen p-4  left-0 top-28 scroll-mt-2">
-              <MenuHome></MenuHome>
-            </div>
-            <div
-              onClick={() => setIsVisible(false)}
-              style={{ background: "rgba(0, 0, 0, 0.6)" }}
-              className="h-full w-full fixed inset-0 z-10 "
-            ></div>
-          </>
-        )}
         <div className="lg:container  w-full  flex items-center">
+          {isVisible && (
+            <>
+              {" "}
+              <div className=" z-20 absolute p-4 top-28">
+                <MenuHome></MenuHome>
+              </div>
+            </>
+          )}
           <div className="mr-2">
             <Link href="/">
               <Image
@@ -143,14 +138,14 @@ const Navbar = (props: any) => {
             </HoverCardContent>
           </HoverCard>
         </div>
+        {isVisible && (
+          <div
+            onClick={() => setIsVisible(false)}
+            style={{ background: "rgba(0, 0, 0, 0.6)" }}
+            className="h-full w-full fixed inset-0 z-10"
+          ></div>
+        )}
       </nav>
-      {/* {isVisible && (
-        <div
-          onClick={() => setIsVisible(false)}
-          style={{ background: "rgba(0, 0, 0, 0.6)" }}
-          className="h-full w-full fixed inset-0 z-10"
-        ></div>
-      )} */}
     </>
   );
 };
