@@ -39,7 +39,7 @@ const Navbar = (props: any) => {
           {isVisible && (
             <>
               {" "}
-              <div className=" z-20 absolute p-4 top-28">
+              <div className="z-20 absolute p-4 top-28">
                 <MenuHome></MenuHome>
               </div>
             </>
