@@ -91,7 +91,7 @@ const MenuHome = () => {
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <div
-                  style={{ width: "calc(100vw - 260px)" }}
+                  style={{ width: "calc(100vw - 255px)" }}
                   className=" h-[514px] p-4 max-w-[978px]"
                 >
                   Say hi
