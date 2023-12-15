@@ -7,17 +7,19 @@ import {
   ShieldCheck,
   Wallet,
 } from "lucide-react";
-
+import Link from "next/link";
 const SubMenu = () => {
   return (
     <div className="hidden lg:flex h-10 bg-white lg:container px-0  flex-row justify-between items-center">
       <div className="w-auto relative flex-auto border-r-2 mr-2">
-        <div className="flex items-center justify-center py-2 cursor-pointer hover:text-red-600">
-          <Tag />
-          <span className="sub-text font-semibold ml-2 text-xs ">
-            Deal sốc mỗi ngày
-          </span>
-        </div>
+        <Link href="/demo">
+          <div className="flex items-center justify-center py-2 cursor-pointer hover:text-red-600">
+            <Tag />
+            <span className="sub-text font-semibold ml-2 text-xs ">
+              Deal sốc mỗi ngày
+            </span>
+          </div>
+        </Link>
       </div>
       <div className="w-auto relative flex-auto border-r-2 mr-2">
         <div className="flex items-center justify-center py-2 cursor-pointer hover:text-red-600">
